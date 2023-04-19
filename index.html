@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olous Task | Krushna Dike</title>
+    <!-- linking css -->
+    <link rel="stylesheet" href="main.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./icons/favicon.jpg" type="image/x-icon">
+
+</head>
+<body class="w-full bg-[#f6f6f6] font-[500]">
+
+        <!-- Hero-section -->
+        <section class="max-w-[1200px] mx-auto flex md:flex-row flex-col justify-center mt-10 rounde-lg">
+
+                    <!-- left-part -->
+                    <div class="flex flex-col justify-center items-center bg-white p-10 text-[14px] rounded-md m-5 md:max-w-[16%] ">
+                        <!-- logo -->
+                        <img src="./icons/logo.png" 
+                        loading="lazy"
+                        width="80px"
+                        height="80px"
+                        alt="">
+                        
+                        <!-- heading -->
+                        <h2 class="font-[800] text-center">Evergreen <br> Companies <br> Pvt.Ltd</h2>
+                        
+                        <!-- list -->
+                        <ul class="leading-10 mt-5 font-[500] w-[150px] text-center">
+                            <li> <a href="#"> Dashboard </a> </li>
+                            <li> <a href="#"> Analytics </a> </li>
+                            <li> <a href="#"> Company </a> </li>
+                            <li class="bg-yellow-400 rounded-md"> <a href="#"> Job </a> </li>
+                            <li> <a href="#"> Lead </a> </li>
+                            <li> <a href="#"> Articles </a> </li>
+                            <li> <a href="#"> Headlines </a> </li>
+                            <li> <a href="#"> Enquiry </a> </li>
+                            <li> <a href="#"> Pricing </a> </li>
+                            <li> <a href="#"> Employee </a> </li>
+                            <li> <a href="#"> Report </a> </li>
+                            <li> <a href="#"> Logout </a> </li>
+                        </ul>
+                        
+                    </div>
+                    
+                    <!-- right-part -->
+                    <div class=" flex flex-col bg-white text-[14px] p-5 rounded-md mt-5 border border-gray-300 m-5 md:max-w-[80%]">
+                        <div class="flex items-center">
+
+                            <p class="leading-5 border border-gray-300 block w-[100px] text-center p-5 rounded-lg text-[12px]">Company Logo</p>
+
+                            <p class="px-5 font-bold">Add Jobs</p>
+                            
+                        </div>
+                        <br>
+
+                        <form action="#">
+                            <label for="com_name" class="px-5">Company Name</label> <br>
+                            <input type="text" name="com_name" placeholder="Enter Your Company Name" class="border border-gray-400 p-2 w-full rounded-lg font-bold"> <br>
+                            
+                            <br>
+
+                            <label for="job" class="px-5">Job Title</label> <br>
+                            <input type="text" name="job" placeholder="Enter Job Title Here" class="border border-gray-400 p-2 w-full rounded-lg font-bold"> <br> <br>
+                            
+                            <div class="flex">
+
+                                <div class="mr-2 w-[50%]">
+                                    
+                                    <label for="country" class="px-5">Country</label> <br>
+                                    <input type="text" name="country" placeholder="Enter Your Country" class="border border-gray-400 p-2  rounded-lg w-full font-bold">
+                                    
+                                </div>
+                                
+                                <div class="w-[50%]">
+                                    
+                                    <label for="city" class="px-5">City</label> <br>
+                                    <input type="text" name="city" placeholder="Enter Your City" class="border border-gray-400 p-2 rounded-lg w-full font-bold">
+                                    
+                                </div>
+                            </div>
+
+                            <br>
+                            
+                            <div class="flex">
+
+                                <div class="w-[45%] mr-2">
+
+                                    <label for="level" class="px-5">Level</label>
+                                    <select name="level" class="border border-gray-400 p-2 w-full rounded-lg font-bold">
+                                        <option value="option1">Juior</option>
+                                        <option value="option2" selected>Senior</option>
+                                        <option value="option3">Manager</option>
+                                    </select>
+                                    
+                                </div>
+
+                                <div class="mr-2">
+
+                                    <label for="min_exp" class="px-5">Min Exp.(Year)</label>
+                                    <select name="min_exp" class="border border-gray-400 p-2 w-full rounded-lg font-bold">
+                                        <option value="option1">1 Year</option>
+                                        <option value="option2">2 Year</option>
+                                        <option value="option3">3 Year</option>
+                                        <option value="option4">4 Year</option>
+                                        <option value="option5" selected>5 Year</option>
+                                    </select>
+                                    
+                                </div>
+
+                                <div>
+
+                                    <label for="max_exp" class="px-5">Max Exp.(Year)</label>
+                                    <select name="max_exp" class="border border-gray-400 p-2 w-full rounded-lg font-bold">
+                                        <option value="option1" selected>10 Year</option>
+                                        <option value="option2">11 Year</option>
+                                        <option value="option3">12 Year</option>
+                                        <option value="option4">13 Year</option>
+                                        <option value="option5">14 Year</option>
+                                    </select>
+                                    
+                                </div>
+                                
+                            </div>
+
+                            <br>
+
+                            <div class="flex">
+
+                                <div class="mr-2">
+
+                                    <label for="emp" class="px-5">Employment type</label>
+                                    <select name="emp" class="border border-gray-400 p-2 w-full rounded-lg font-bold">
+                                        <option value="option2" selected>Full Time</option>
+                                        <option value="option3">Part Time</option>
+                                        <option value="option4">Internship</option>
+                                    </select>
+                                    
+                                </div>
+
+                                <div class="mr-2">
+
+                                    <label for="vacancy" class="px-5"> Vacancy </label>
+                                    <select name="vacancy" class="border border-gray-400 p-2 w-full rounded-lg font-bold">
+                                        <option value="option1">10</option>
+                                        <option value="option2" selected>20</option>
+                                        <option value="option3">30</option>
+                                        <option value="option4">40</option>
+                                        <option value="option5">50</option>
+                                    </select>
+                                    
+                                </div>
+
+                                <div>
+
+                                    <label for="location" class="px-5"> Work Location </label>
+                                    <select name="location" class="border border-gray-400 p-2 w-full rounded-lg font-bold">
+                                        <option value="option1">Pune</option>
+                                        <option value="option2" selected>Office</option>
+                                        <option value="option3">Mumbai</option>
+                                    </select>
+                                    
+                                </div>
+                            </div>
+
+                            <br>
+                            
+                            <div class="flex">
+
+                                <div class="mr-2">
+
+                                    <label for="salary" class="px-5"> Salary </label>
+                                    <input type="text" name="salary" placeholder="10 Laks Per Anum" class="border border-gray-400 p-2 w-full rounded-lg font-bold">
+                                    
+                                </div>
+
+                                <div>
+
+                                    <label for="lang" class="px-5"> Language </label>
+                                    <input type="text" name="lang" placeholder="English, Hindi, Marathi" class="border border-gray-400 p-2 w-full rounded-lg font-bold">
+                                    
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                            
+        </section>
+
+        <!-- section-1 -->
+        <section class="md:max-w-[705px] md:mx-auto mt-6 bg-white border m-5 border-gray-300 rounded-lg text-[14px] md:ml-[30.7%]">
+            
+            <div class="flex flex-col m-6">
+
+                <h2 class="px-5">Profile Requirement</h2>
+                <div class="border border-gray-300 w-full pb-10 p-2 font-bold rounded-lg">Profile Rquirement. I</div>
+                
+            </div>
+
+            <div class="flex flex-col m-6">
+
+                <h2 class="px-5">About Company</h2>
+                <div class="border border-gray-300 w-full pb-10 p-2 font-bold rounded-lg">Job Description. I</div>
+                
+            </div>
+
+            <div class="flex flex-col m-6">
+
+                <h2 class="px-5">Company Website</h2>
+                <div class="border border-gray-300 w-full p-2 font-bold rounded-lg">www.vadcore.com</div>
+                
+            </div>
+
+            <div class="flex flex-row m-6">
+                <div class="mr-5">
+
+                    <h2 class="px-5">Job Application Url (Direct link for Job Application) I</h2>
+                    <div class="border border-gray-300 w-full  p-2 font-bold rounded-lg">www.vadcore.com/dafaddejiw</div>
+
+                </div>
+
+                <div class="flex justify-center items-center mt-5">
+
+                    <div class="border-2 border-yellow-400 rounded p-2 mr-2"></div>
+                    <div><i>click for external email jobs.</i></div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- section-2 -->
+        <section class="md:max-w-[705px] md:mx-auto mt-6 bg-white border border-gray-300 rounded-lg text-[14px] md:ml-[30.7%] m-5">
+            
+            <div class="flex flex-row m-6">
+
+                <div class="flex flex-col mr-2 w-full">
+                    <h2 class="px-5">Number of days valid till</h2>
+                    <div>
+                        <select class="border border-gray-400 p-2 w-full rounded-lg font-bold">
+                            <option value="option1">80</option>
+                            <option value="option2" selected>30</option>
+                            <option value="option3">60</option>
+                        </select>
+                    </div>
+                </div>
+                    
+                <div class="flex flex-col w-full">
+                    <h2 class="px-5">Notice Period</h2>
+                    <div>
+                        <select class="border border-gray-400 p-2 w-full rounded-lg font-bold">
+                            <option value="option1">10 Days</option>
+                            <option value="option2" selected>30 Days</option>
+                            <option value="option3">60 Days</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-row m-6">
+                <div class="mr-5 w-full">
+
+                    <div class="flex">
+
+                        <h2 class="pl-5 pr-2">Attachment</h2>
+                        <img src="./icons/Info icon.svg" alt="">
+
+                    </div>
+
+                    <div class="border border-gray-300 w-full  p-2 font-bold rounded-lg">Name of Attachment</div>
+
+                </div>
+
+                <div class="flex justify-center items-center mt-5">
+
+                    <div class="border-2 border-yellow-400 rounded p-2 mr-2"></div>
+                    <div><i>Attachment</i></div>
+                    
+                </div>
+            </div>
+           
+        </section>
+
+        <!-- section-3 -->
+        <section class="md:max-w-[705px] md:mx-auto mt-6 bg-white border border-gray-300 rounded-lg text-[14px] md:ml-[30.7%] m-5">
+            
+            <div class="mr-5 w-full m-6 flex">
+                <div class="flex flex-col w-full mr-2">
+
+                    <div class="flex">
+                        
+                        <h2 class="pl-5 pr-2">Profession</h2>
+                        <img src="./icons/Info icon.svg" alt="">
+                        
+                    </div>
+                    
+                    <div>
+                        <select class="border border-gray-400 p-2 w-full rounded-lg opacity-80">
+                            <option value="option1">Computer</option>
+                            <option value="option2" selected>Select Profession</option>
+                            <option value="option3">Electrical</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="w-full flex mt-5">
+                    
+                    <div class="w-[70%] mr-2">
+                        <select class="border border-gray-400 p-2 w-full rounded-lg opacity-80">
+                            <option value="option1">2 Year</option>
+                            <option value="option2" selected>Experience</option>
+                            <option value="option3">4 Year</option>
+                        </select>
+                    </div>
+                    
+                    <div class="w-[30%]">
+                        <img src="./icons/Add.svg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+
+
+            <div class="m-6 flex flex-col -mt-6">
+                <div class="flex items-center">
+                    <img src="./icons/full-stop.png" 
+                    loading="lazy"
+                    width="50"
+                    height="50"
+                    alt="">
+
+                    <div class="mr-2">Roads & highways engineering required 4 years of experience
+                    </div>
+
+                    <img src="./icons/Delete.svg" alt="">
+                </div>
+
+                <div class="flex items-center -mt-5">
+                    <img src="./icons/full-stop.png" 
+                    loading="lazy"
+                    width="50"
+                    height="50"
+                    alt="">
+
+                    <div class="mr-2">Dams & water engineering required 4 years of experience
+                    </div>
+
+                    <img src="./icons/Delete.svg" alt="">
+                </div>
+
+                <div class="flex justify-center items-center m-6 -mt-1">
+
+                    <div class="border-2 border-yellow-400 rounded p-2 mr-2"></div>
+                    <div><i>Check if you want the candidate to have experience in all of the above professions or else a 
+                        match to any of the above professions would be considered.
+                        </i></div>
+                    
+                </div>
+            </div>
+
+
+
+
+            <div class="mr-5 w-full m-6 flex">
+                <div class="flex flex-col w-full mr-2">
+
+                    <div class="flex">
+                        
+                        <h2 class="pl-5 pr-2">Sector</h2>
+                        <img src="./icons/Info icon.svg" alt="">
+                        
+                    </div>
+                    
+                    <div>
+                        <select class="border border-gray-400 p-2 w-full rounded-lg opacity-80">
+                            <option value="option1">Computer</option>
+                            <option value="option2" selected>Select Sector</option>
+                            <option value="option3">Electrical</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="w-full flex mt-5">
+                    
+                    <div class="w-[70%] mr-2">
+                        <select class="border border-gray-400 p-2 w-full rounded-lg opacity-80">
+                            <option value="option1">2 Year</option>
+                            <option value="option2" selected>Experience</option>
+                            <option value="option3">4 Year</option>
+                        </select>
+                    </div>
+                    
+                    <div class="w-[30%]">
+                        <img src="./icons/Add.svg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="m-6 flex flex-col -mt-6">
+                <div class="flex items-center">
+                    <img src="./icons/full-stop.png" 
+                    loading="lazy"
+                    width="50"
+                    height="50"
+                    alt="">
+
+                    <div class="mr-2">Commercial Required 4 Years Of Experience
+                    </div>
+
+                    <img src="./icons/Delete.svg" alt="">
+                </div>
+
+                <div class="flex items-center -mt-5">
+                    <img src="./icons/full-stop.png" 
+                    loading="lazy"
+                    width="50"
+                    height="50"
+                    alt="">
+
+                    <div class="mr-2">Industrial Required 4 Years Of Experience
+                    </div>
+
+                    <img src="./icons/Delete.svg" alt="">
+                </div>
+
+                <div class="flex justify-center items-center m-6 -mt-1">
+
+                    <div class="border-2 border-yellow-400 rounded p-2 mr-2"></div>
+                    <div><i>Check if you want the candidate to have experience in all of the above professions or else a 
+                        match to any of the above professions would be considered.
+                        </i></div>
+                    
+                </div>
+            </div>
+
+
+
+
+            <div class="mr-5 w-full m-6 flex">
+                <div class="flex flex-col w-full mr-2">
+
+                    <div class="flex">
+                        
+                        <h2 class="pl-5 pr-2">Software</h2>
+                        <img src="./icons/Info icon.svg" alt="">
+                        
+                    </div>
+                    
+                    <div>
+                        <select class="border border-gray-400 p-2 w-full rounded-lg opacity-80">
+                            <option value="option1">Computer</option>
+                            <option value="option2" selected>Select Profession</option>
+                            <option value="option3">Electrical</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="w-[15%] mt-5">
+                    <img src="./icons/Add.svg" alt="">
+                </div>
+
+            </div>
+
+            <div class="m-6 flex flex-col -mt-6">
+                <div class="flex items-center">
+                    <img src="./icons/full-stop.png" 
+                    loading="lazy"
+                    width="50"
+                    height="50"
+                    alt="">
+
+                    <div class="mr-2">Revit Required
+                    </div>
+
+                    <img src="./icons/Delete.svg" alt="">
+                </div>
+
+                <div class="flex items-center -mt-5">
+                    <img src="./icons/full-stop.png" 
+                    loading="lazy"
+                    width="50"
+                    height="50"
+                    alt="">
+
+                    <div class="mr-2">Autocad Required
+                    </div>
+
+                    <img src="./icons/Delete.svg" alt="">
+                </div>
+
+                <div class="flex justify-center items-center m-6 -mt-1">
+
+                    <div class="border-2 border-yellow-400 rounded p-2 mr-2"></div>
+                    <div><i>Check if you want the candidate to have experience in all of the above professions or else a 
+                        match to any of the above professions would be considered.
+                        </i></div>
+                    
+                </div>
+            </div>
+           
+        </section>
+
+        <!-- section-4 -->
+        <section class="md:max-w-[705px] md:mx-auto mt-6 bg-white border border-gray-300 rounded-lg text-[14px] md:ml-[30.7%] m-5">
+            
+            <div class="flex flex-row m-6">
+
+                <div class="flex flex-col mr-2 w-full">
+                    <h2 class="px-5 font-bold">Contact Info</h2>
+
+                    <div class="border border-gray-300 w-full  p-2 rounded-lg">Sachin Wadkar</div>
+                </div>
+    
+            </div>
+            
+            <div class="m-6 flex flex-row">
+                <div class="border border-gray-300 w-full  p-2 rounded-lg mr-2">sachin.wadkar@gmail.com</div>
+
+                <div class="border border-gray-300 p-2 rounded-lg mr-2">+91</div>
+
+                <div class="border border-gray-300 w-full  p-2 rounded-lg">7350638693</div>
+            </div>
+           
+           
+        </section>
+
+        <!-- Button-section -->
+        <section class="flex md:justify-end justify-center max-w-[705px] mx-auto mt-4 md:ml-[30.7%]">
+            <button class="px-8 py-2 border border-black rounded-3xl text-[14px] mb-5 mr-2">Cancel</button>
+
+            <button class="px-8 py-2 border border-black rounded-3xl text-[14px] mb-5 mr-2">Save</button>
+
+            <button class="px-8 py-2 rounded-3xl font-bold text-[14px] mb-5 bg-yellow-400">Publish</button>
+
+        </section>
+
+    </div>
+</body>
+</html>
